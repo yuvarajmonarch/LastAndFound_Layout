@@ -1,0 +1,55 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#heroCarousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+section {
+    padding: 50px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Toggle Section */
+.toggle-section {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.toggle-content {
+    display: none;
+    margin-top: 15px;
+}
